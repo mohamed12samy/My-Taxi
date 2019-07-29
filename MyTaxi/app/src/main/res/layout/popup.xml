@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+
+    <ImageView
+        android:id="@+id/header_image"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/car_pooling"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp">
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TAXI"
+            android:layout_gravity="center"
+            android:textColor="#0866D9"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+
+            />
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11111"
+            android:layout_gravity="center"
+            android:textColor="#0866D9"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+</LinearLayout>
